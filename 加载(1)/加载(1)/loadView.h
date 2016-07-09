@@ -1,0 +1,13 @@
+//
+//  loadView.h
+//  加载(1)
+//
+//  Created by 李国峰 on 16/7/9.
+//  Copyright © 2016年 李国峰. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface loadView : UIView
+
+@end
