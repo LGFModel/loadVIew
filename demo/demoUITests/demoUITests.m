@@ -1,18 +1,18 @@
 //
-//  ___1_UITests.m
-//  加载(1)UITests
+//  demoUITests.m
+//  demoUITests
 //
-//  Created by 李国峰 on 16/7/8.
+//  Created by 李国峰 on 16/7/22.
 //  Copyright © 2016年 李国峰. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface ___1_UITests : XCTestCase
+@interface demoUITests : XCTestCase
 
 @end
 
-@implementation ___1_UITests
+@implementation demoUITests
 
 - (void)setUp {
     [super setUp];

@@ -1,15 +1,14 @@
 //
-//  loadView.m
-//  加载(1)
+//  GFLoadVIew.m
+//  demo
 //
-//  Created by 李国峰 on 16/7/9.
+//  Created by 李国峰 on 16/7/22.
 //  Copyright © 2016年 李国峰. All rights reserved.
 //
 
-#import "loadView.h"
+#import "GFLoadVIew.h"
 
-@implementation loadView
-
+@implementation GFLoadVIew
 - (void)drawRect:(CGRect)rect {
     
     
@@ -23,7 +22,7 @@
     layer1.path = path1.CGPath;
     layer1.fillColor = [UIColor clearColor].CGColor;
     layer1.strokeColor = [UIColor grayColor].CGColor;
-    layer1.lineWidth = 5.0;
+    layer1.lineWidth = self.lineWidth;
     [self.layer addSublayer:layer1];
     
     
@@ -36,9 +35,9 @@
     CAShapeLayer *layer = [[CAShapeLayer alloc]init];
     layer.path = path.CGPath;
     
-    layer.strokeColor = [UIColor redColor].CGColor;
+    layer.strokeColor = self.color.CGColor;
     layer.fillColor = [UIColor clearColor].CGColor;
-    layer.lineWidth = 5.0;
+    layer.lineWidth = self.lineWidth;
     [self.layer addSublayer:layer];
 }
 

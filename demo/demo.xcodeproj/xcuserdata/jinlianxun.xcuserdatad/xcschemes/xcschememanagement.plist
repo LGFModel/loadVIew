@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>加载(1).xcscheme</key>
+		<key>demo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>776E3F661D2FE2D1001FEF22</key>
+		<key>77FB79AB1D41E40E00771D4D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>776E3F821D2FE2D1001FEF22</key>
+		<key>77FB79C71D41E40E00771D4D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>776E3F8D1D2FE2D1001FEF22</key>
+		<key>77FB79D21D41E40E00771D4D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
